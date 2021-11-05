@@ -1,0 +1,23 @@
+.advantages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 250px;
+}
+
+.advantage{
+    color: var(--primary-white);
+    width: 30%;
+}
+
+.advantage__head{
+    display: flex;
+    align-items: center;
+    color: var(--primary-yellow);
+}
+
+.advantage__description{
+    padding-left: 70px;
+    letter-spacing: 0.7px;
+}
